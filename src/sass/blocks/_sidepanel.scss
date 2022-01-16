@@ -8,6 +8,9 @@
     align-items: center;
     height: 340px;
     z-index: 3;
+    path:hover{
+        fill: red;
+    }
     &__divider{
         width: 2px;
         height: 70px;
@@ -19,7 +22,7 @@
         span{
             transform: rotate(-90deg) translate(-30%, -215%);
             display: block;
-            width: 150px;
+            width: 150px;           
         }
     }
 
